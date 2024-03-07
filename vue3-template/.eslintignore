@@ -1,6 +1,6 @@
 .eslintrc.cjs
 *.config.ts
-*.config.js
+*.config.cjs
 
 dist
 node_modules
