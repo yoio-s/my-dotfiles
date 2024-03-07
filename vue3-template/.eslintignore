@@ -1,5 +1,4 @@
 .eslintrc.cjs
-*.config.ts
 *.config.cjs
 
 dist
