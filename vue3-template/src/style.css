@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'YouSheTitle';
+    src: url('./assets/fonts/YouSheTitle.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DingTalk JinBuTi';
+    src: url('./assets/fonts/DingTalk_JinBuTi_Regular.ttf') format('truetype');
+}
+
+:root {
+    --my-primary: #18a058;
+    --my-primary-light: #ffd5a5;
+    --my-primary-lighter: #ffeaca;
+    --my-primary-lightest: #fff2e9;
+    --my-primary-dark: #c57600;
+    --my-green: #8fcb34;
+    --my-green-light: #d6f4a4;
+    --my-green-dark: #445e1e;
+    --my-blue: #1269ec;
+    --my-blue-light: #e7f0ff;
+    --my-blue-lighter: #f4f7fd;
+    --my-blue-lightest: #fbfcfe;
+    --my-blue-weight: #51bfe2;
+    --my-red: #fc2f02;
+    --my-red-light: #ffede9;
+    --my-gray-1: #333;
+    --my-gray-2: #4f4f4f;
+    --my-gray-3: #828282;
+    --my-gray-4: #bdbdbd;
+    --my-gray-5: #e0e0e0;
+    --my-gray-6: #f2f2f2;
+    --my-gray-7: #f9f9f9;
+    --my-background: #f4f7fd;
+}
+
+
