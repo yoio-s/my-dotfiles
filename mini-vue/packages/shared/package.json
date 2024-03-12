@@ -1,0 +1,35 @@
+{
+  "name": "@mini-vue/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/shared.esm-bundler.js",
+  "exports": {
+    ".": {
+      "types": "./dist/shared.d.ts",
+      "node": {
+        "production": "./dist/shared.cjs.js",
+        "development": "./dist/shared.cjs.js",
+        "default": "./index.js"
+      },
+      "module": "./dist/shared.esm-bundler.js",
+      "import": "./dist/shared.esm-bundler.js",
+      "require": "./index.js"
+    },
+    "./*": "./*"
+  },
+  "licenses": "MIT",
+  "buildOptions": {
+    "name": "Shared",
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

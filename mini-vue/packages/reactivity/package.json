@@ -1,0 +1,39 @@
+{
+  "name": "@mini-vue/reactivity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/reactivity.esm-bundler.js",
+  "exports": {
+    ".": {
+      "types": "./dist/reactivity.d.ts",
+      "node": {
+        "production": "./dist/reactivity.cjs.js",
+        "development": "./dist/reactivity.cjs.js",
+        "default": "./index.js"
+      },
+      "module": "./dist/reactivity.esm-bundler.js",
+      "import": "./dist/reactivity.esm-bundler.js",
+      "require": "./index.js"
+    },
+    "./*": "./*"
+  },
+  "licenses": "MIT",
+  "buildOptions": {
+    "name": "Reactivity",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mini-vue/shared": "workspace:^"
+  }
+}
